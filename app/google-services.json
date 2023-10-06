@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "230624598870",
+    "project_id": "duanmau-19fdc",
+    "storage_bucket": "duanmau-19fdc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230624598870:android:d57198faf322bb586754f7",
+        "android_client_info": {
+          "package_name": "com.example.duanmau"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCS2xnKpihFVHLBGIzE6UHiwKOz9rmoa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

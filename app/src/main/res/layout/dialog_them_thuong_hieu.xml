@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/txtTH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Thương Hiệu "
+        android:gravity="center"
+        android:textSize="22dp"
+        android:textColor="@color/red"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Nhập Tên Thương Hiệu"
+        />
+    <EditText
+        android:id="@+id/edt_tenTH"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:hint="Tên Thương Hiệu "
+        android:background="@drawable/khung_vien"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_SThoatTH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thoát"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_bottom_red"
+            app:backgroundTint="@null"
+            />
+        <Button
+            android:id="@+id/btn_SLuuTH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lưu"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_bottom"
+            app:backgroundTint="@null"
+            />
+    </LinearLayout>
+</LinearLayout>

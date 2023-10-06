@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Loggin">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="310dp"
+            android:layout_height="187dp"
+            android:src="@drawable/img_1" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login Details"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:id="@+id/login_user"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/duong_vien"
+            android:hint="Username"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textSize="16dp"
+            />
+
+        <EditText
+            android:id="@+id/login_pass"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/duong_vien"
+            android:hint="Password"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textSize="16dp"
+            />
+
+        <TextView
+            android:id="@+id/forgotPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password ?"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loggin_button"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/button_loggin"
+        android:text="Loggin"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        android:src="@drawable/img"/>
+
+
+</LinearLayout>
