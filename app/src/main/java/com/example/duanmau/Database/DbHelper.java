@@ -14,7 +14,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        //cc huy
+        //cc huyffffffffff
         //thuơng hieeuj
         String qlThuongHieu = "CREATE TABLE THUONG_HIEU(idthuonghieu INTEGER PRIMARY KEY ,tenthuonghieu TEXT)";
         db.execSQL(qlThuongHieu);
